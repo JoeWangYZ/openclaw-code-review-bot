@@ -1,0 +1,21 @@
+{
+  "name": "openclaw-code-review-bot",
+  "version": "0.1.0",
+  "description": "AI-powered GitHub PR code review bot with multi-channel notifications",
+  "type": "module",
+  "bin": {
+    "openclaw-review-bot": "dist/index.js"
+  },
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["openclaw", "github", "code-review", "ai", "bot"],
+  "author": "JoeWangYZ",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
